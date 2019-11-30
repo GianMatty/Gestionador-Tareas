@@ -1,0 +1,38 @@
+NOTAS
+------
+BACKEND:
+* npm init -y => package json
+* npm install express => express en node module
+* npm install nodemon -D => poner en escucha constante el servidor
+* npm install morgan => para ver las peticiones http
+* npm install mongoose => para conectar con la BD y definir los datos dentro de la BD
+
+CONFIGURACION PACKAGE.JSON: => en el script covertimos la forma tradional de ejecutar en algo mas simple
+* npm run start (start es configurado en el package.js => node ruta/index.js)
+* npm run dev (dev es configurado en el package.js => nodemon ruta/index.js)
+* npm run webpack (webpack es configurado en el package.js => webpack --mode development)
+* npm run webpack (para dejarlo en escucha => webpack --mode development --watch)
+
+FRONTEND:
+* npm install webpack -D => enpaqueta y tranforma codigo para q sea entendido (codigo js)
+* npm install webpack-cli -D => para que webpack funcione
+* npm install react react-dom => para uso de la biblioteca de react
+* npm install babel-core babel-loader@7 babel-preset-react babel-preset-env -D => para traducir codigo react y js moderno
+* Nota: no usar babel-loader sino babel-loader@7
+
+EJECUTAR:
+* npm run dev (en una terminal)
+* npm run webpack (en otra terminal)
+* mongod (en otra terminal)
+
+FRAMEWORK DE TERCEROS:
+* MATERIALIZE CSS
+* MATERIALIZE JS
+* MATERIALIZE ICONS
+
+
+
+
+PARA MONGODB: una vez que se tiene instalado
+-------------
+* 

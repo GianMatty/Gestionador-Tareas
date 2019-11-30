@@ -1,0 +1,3 @@
+{
+    "presets": ["env", "react"] //traduce env(js moderno) y react
+}
